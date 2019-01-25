@@ -7,6 +7,6 @@ This project is to character a simple encyclopedia of comic book characters.
 - Creating a simple search interface
 
 # TODO
-Add to the database
-Retrieve from the database
-Have the interface be interactive
+- Add to the database
+- Retrieve from the database
+- Have the interface be interactive
