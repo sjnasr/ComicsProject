@@ -20,6 +20,7 @@ public class ComicDatabase extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "ComicbookDatabase";
 
     //Table Contents
+    /*TODO: Remove this portion, copied the same data to ComicCharacter.java*/
     private static final String KEY_ID = "id";
     private static final String Character_Name = "character name";
     //private static Blob image = "image";
@@ -76,5 +77,12 @@ public class ComicDatabase extends SQLiteOpenHelper {
     }
 
     //Adding new entry
-    //public void addEntry()
+    public void addEntry(String character)
+    {
+        //ComicDatabase comicDatabase = new ComicDatabase(this);
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+        //values.put(this.Character_Name, character);
+    }
 }
